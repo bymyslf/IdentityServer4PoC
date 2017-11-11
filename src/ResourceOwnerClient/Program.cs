@@ -30,13 +30,13 @@ namespace ResourceOwnerClient
             Console.WriteLine(":::::::::::: ALICE ::::::::::::");
             Console.ForegroundColor = previousColor;
 
-            await FireRequests(disco, "alice", "password", "api.read_only");
+            await FireRequests(disco, "alice@alice.com", "password", "api.read_only");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(":::::::::::: BOB ::::::::::::");
             Console.ForegroundColor = previousColor;
 
-            await FireRequests(disco, "bob", "password", "api.full_access");
+            await FireRequests(disco, "bob@bob.com", "password", "api.full_access");
 
             Console.ReadKey();
         }
