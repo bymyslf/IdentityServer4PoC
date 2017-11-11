@@ -4804,11 +4804,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\Client\\Client.csproj",
+      "projectUniqueName": "D:\\GitProjects\\IdentityServer4PoC\\src\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\Client\\Client.csproj",
+      "projectPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\luisbarbosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\Client\\obj\\",
+      "outputPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -13238,11 +13238,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\IdentityServerWithAspNetIdentity\\IdentityServerWithAspNetIdentity.csproj",
+      "projectUniqueName": "D:\\GitProjects\\IdentityServer4PoC\\src\\IdentityServerWithAspNetIdentity\\IdentityServerWithAspNetIdentity.csproj",
       "projectName": "IdentityServerWithAspNetIdentity",
-      "projectPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\IdentityServerWithAspNetIdentity\\IdentityServerWithAspNetIdentity.csproj",
+      "projectPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\IdentityServerWithAspNetIdentity\\IdentityServerWithAspNetIdentity.csproj",
       "packagesPath": "C:\\Users\\luisbarbosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\IdentityServerWithAspNetIdentity\\obj\\",
+      "outputPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\IdentityServerWithAspNetIdentity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

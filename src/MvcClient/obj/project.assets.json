@@ -12534,11 +12534,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\MvcClient\\MvcClient.csproj",
+      "projectUniqueName": "D:\\GitProjects\\IdentityServer4PoC\\src\\MvcClient\\MvcClient.csproj",
       "projectName": "MvcClient",
-      "projectPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\MvcClient\\MvcClient.csproj",
+      "projectPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\MvcClient\\MvcClient.csproj",
       "packagesPath": "C:\\Users\\luisbarbosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\MvcClient\\obj\\",
+      "outputPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\MvcClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -20,3 +20,14 @@ C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentity
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\Client\obj\Debug\netcoreapp2.0\Client.dll
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\Client\obj\Debug\netcoreapp2.0\Client.pdb
+D:\GitProjects\IdentityServer4PoC\src\Client\bin\Debug\netcoreapp2.0\Client.deps.json
+D:\GitProjects\IdentityServer4PoC\src\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.json
+D:\GitProjects\IdentityServer4PoC\src\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.dev.json
+D:\GitProjects\IdentityServer4PoC\src\Client\bin\Debug\netcoreapp2.0\Client.dll
+D:\GitProjects\IdentityServer4PoC\src\Client\bin\Debug\netcoreapp2.0\Client.pdb
+D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.csprojResolveAssemblyReference.cache
+D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
+D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.dll
+D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.pdb

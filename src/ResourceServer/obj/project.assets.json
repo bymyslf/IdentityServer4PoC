@@ -13167,11 +13167,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\Api\\ResourceServer.csproj",
+      "projectUniqueName": "D:\\GitProjects\\IdentityServer4PoC\\src\\ResourceServer\\ResourceServer.csproj",
       "projectName": "ResourceServer",
-      "projectPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\Api\\ResourceServer.csproj",
+      "projectPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\ResourceServer\\ResourceServer.csproj",
       "packagesPath": "C:\\Users\\luisbarbosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\Api\\obj\\",
+      "outputPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\ResourceServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -4804,11 +4804,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\ResourceOwnerClient\\ResourceOwnerClient.csproj",
+      "projectUniqueName": "D:\\GitProjects\\IdentityServer4PoC\\src\\ResourceOwnerClient\\ResourceOwnerClient.csproj",
       "projectName": "ResourceOwnerClient",
-      "projectPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\ResourceOwnerClient\\ResourceOwnerClient.csproj",
+      "projectPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\ResourceOwnerClient\\ResourceOwnerClient.csproj",
       "packagesPath": "C:\\Users\\luisbarbosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luisbarbosa\\Desktop\\IdentityServerPocs\\IdentityServerWithAspNetIdentityPoc\\src\\ResourceOwnerClient\\obj\\",
+      "outputPath": "D:\\GitProjects\\IdentityServer4PoC\\src\\ResourceOwnerClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

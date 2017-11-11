@@ -20,3 +20,14 @@ C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentity
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\Api\obj\Debug\netcoreapp2.0\ResourceServer.dll
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\Api\obj\Debug\netcoreapp2.0\ResourceServer.pdb
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\Api\obj\Debug\netcoreapp2.0\ResourceServer.csprojResolveAssemblyReference.cache
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\bin\Debug\netcoreapp2.0\ResourceServer.deps.json
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\bin\Debug\netcoreapp2.0\ResourceServer.runtimeconfig.json
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\bin\Debug\netcoreapp2.0\ResourceServer.runtimeconfig.dev.json
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\bin\Debug\netcoreapp2.0\ResourceServer.dll
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\bin\Debug\netcoreapp2.0\ResourceServer.pdb
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.csprojResolveAssemblyReference.cache
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.csproj.CoreCompileInputs.cache
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.AssemblyInfoInputs.cache
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.AssemblyInfo.cs
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.dll
+D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.pdb

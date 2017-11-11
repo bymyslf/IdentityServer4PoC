@@ -19,3 +19,14 @@ C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentity
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.dll
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.pdb
 C:\Users\luisbarbosa\Desktop\IdentityServerPocs\IdentityServerWithAspNetIdentityPoc\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.csprojResolveAssemblyReference.cache
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.deps.json
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.runtimeconfig.json
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.runtimeconfig.dev.json
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.dll
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.pdb
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.csprojResolveAssemblyReference.cache
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.csproj.CoreCompileInputs.cache
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.AssemblyInfoInputs.cache
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.AssemblyInfo.cs
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.dll
+D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.pdb
