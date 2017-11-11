@@ -63,7 +63,7 @@ namespace ResourceOwnerClient
             Console.WriteLine("GET");
             Console.WriteLine("\n\n");
 
-            var response = await client.GetAsync("http://localhost:5002/values");
+            var response = await client.GetAsync("http://localhost:5001/values");
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);
@@ -82,7 +82,7 @@ namespace ResourceOwnerClient
                 new KeyValuePair<string, string>("value", "OIDC")
             });
 
-            response = await client.PostAsync("http://localhost:5002/values", body);
+            response = await client.PostAsync("http://localhost:5001/values", body);
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);
