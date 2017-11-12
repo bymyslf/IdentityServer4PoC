@@ -30,3 +30,4 @@ D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.Asse
 D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
 D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.dll
 D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.pdb
+D:\GitProjects\IdentityServer4PoC\src\Client\obj\Debug\netcoreapp2.0\Client.csprojResolveAssemblyReference.cache

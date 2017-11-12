@@ -18,6 +18,7 @@ namespace IdentityServerWithAspNetIdentity
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
+                new IdentityResources.Email(),
             };
         }
 
@@ -110,6 +111,9 @@ namespace IdentityServerWithAspNetIdentity
                     AllowedGrantTypes = GrantTypes.Implicit,
 
                     RequireConsent = false,
+                    AllowAccessTokensViaBrowser = true,
+
+                    AllowedCorsOrigins = { "http://localhost:5003" },
 
                     RedirectUris = { "http://localhost:5003/oidc-client-sample.html" },
                     PostLogoutRedirectUris = { "http://localhost:5003/oidc-client-sample.html" },
@@ -117,7 +121,6 @@ namespace IdentityServerWithAspNetIdentity
                     AllowedScopes =
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email,
                         "api.full_access",
                     },

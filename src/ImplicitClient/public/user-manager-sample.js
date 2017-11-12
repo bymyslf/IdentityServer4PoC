@@ -29,10 +29,10 @@ Oidc.Log.level = Oidc.Log.WARN;
 var settings = {
     authority: 'http://localhost:5000/',
     client_id: 'js.tokenmanager',
-    redirect_uri: 'http://localhost:5003/user-manager-sample.html',
+    redirect_uri: 'http://localhost:5003Y/user-manager-sample.html',
     post_logout_redirect_uri: 'http://localhost:5003/user-manager-sample.html',
     response_type: 'id_token token',
-    scope: 'openid email roles',
+    scope: 'openid email',
     
     popup_redirect_uri:'http://localhost:5003/user-manager-sample-popup-signin.html',
     popup_post_logout_redirect_uri:'http://localhost:5003/user-manager-sample-popup-signout.html',

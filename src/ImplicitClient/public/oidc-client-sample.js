@@ -23,7 +23,7 @@ var settings = {
     redirect_uri: 'http://localhost:5003/oidc-client-sample.html',
     post_logout_redirect_uri: 'http://localhost:5003/oidc-client-sample.html',
     response_type: 'id_token token',
-    scope: 'openid email roles',
+    scope: 'openid email',
 
     filterProtocolClaims: true,
     loadUserInfo: true
