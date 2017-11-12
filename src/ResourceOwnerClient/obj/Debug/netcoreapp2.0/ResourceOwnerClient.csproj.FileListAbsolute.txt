@@ -24,7 +24,6 @@ D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.
 D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.runtimeconfig.dev.json
 D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.dll
 D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.pdb
-D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.csprojResolveAssemblyReference.cache
 D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.csproj.CoreCompileInputs.cache
 D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.AssemblyInfoInputs.cache
 D:\GitProjects\IdentityServer4PoC\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.AssemblyInfo.cs

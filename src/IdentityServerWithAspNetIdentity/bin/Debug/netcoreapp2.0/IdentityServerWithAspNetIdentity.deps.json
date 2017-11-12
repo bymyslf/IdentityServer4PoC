@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "b1a2d35eb319b5610a6978db1b616f5a61407653"
+    "signature": "2a5660e39b578cf8fbcaaa44c78002626eaf6e43"
   },
   "compilationOptions": {
     "defines": [
@@ -23,32 +23,18 @@
     ".NETCoreApp,Version=v2.0": {
       "IdentityServerWithAspNetIdentity/1.0.0": {
         "dependencies": {
-          "AspNetCore.Identity.PostgreSQL.dll": "2.0.1",
           "IdentityServer4.AspNetIdentity": "2.0.0",
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "2.0.0"
         },
         "runtime": {
           "IdentityServerWithAspNetIdentity.dll": {}
         },
         "compile": {
           "IdentityServerWithAspNetIdentity.dll": {}
-        }
-      },
-      "AspNetCore.Identity.PostgreSQL.dll/2.0.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity": "2.0.0",
-          "Microsoft.NETCore.App": "2.0.0",
-          "NETStandard.Library": "2.0.0",
-          "Npgsql": "3.2.5"
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/AspNetCore.Identity.PostgreSQL.dll": {}
-        },
-        "compile": {
-          "lib/netcoreapp2.0/AspNetCore.Identity.PostgreSQL.dll": {}
         }
       },
       "IdentityModel/2.12.0": {
@@ -2570,6 +2556,21 @@
           "lib/netstandard2.0/Npgsql.dll": {}
         }
       },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/2.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Npgsql": "3.2.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
       "NuGet.Frameworks/4.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -4305,13 +4306,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AspNetCore.Identity.PostgreSQL.dll/2.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DKdLnMjaPwuvCh4BV077Sm6Dv/9maCETR2Dd/ocI0zWfbltT6fJAnzuow3xQ+kXP+hv1IQiugMqUBRlKG9afDA==",
-      "path": "aspnetcore.identity.postgresql.dll/2.0.1",
-      "hashPath": "aspnetcore.identity.postgresql.dll.2.0.1.nupkg.sha512"
-    },
     "IdentityModel/2.12.0": {
       "type": "package",
       "serviceable": true,
@@ -5557,6 +5551,13 @@
       "sha512": "sha512-89z5pHuLuwjkHz/cQLuM/YxlepR/0NKJP+Cvu8z1cAMv7AdKZnN5leQqV6HxIQDR245Xal1w5OH7kDb9hDRupg==",
       "path": "npgsql/3.2.5",
       "hashPath": "npgsql.3.2.5.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-saKCNK8A5OW3sUhL/tvYqNyKUK7AbIQlZUVmjn4Fw9wstyopECeF/9Er1fexRLpWev0/H9fUzFclTrXm+omsag==",
+      "path": "npgsql.entityframeworkcore.postgresql/2.0.0",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.2.0.0.nupkg.sha512"
     },
     "NuGet.Frameworks/4.0.0": {
       "type": "package",

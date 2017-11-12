@@ -10,9 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using IdentityServerWithAspNetIdentity.Models;
 using IdentityServerWithAspNetIdentity.Services;
-using AspNetCore.Identity.PostgreSQL.Stores;
-using IdentityRole = AspNetCore.Identity.PostgreSQL.IdentityRole;
-
+using IdentityServerWithAspNetIdentity.Data;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 namespace IdentityServerWithAspNetIdentity
 {
     public class Startup
@@ -27,11 +26,12 @@ namespace IdentityServerWithAspNetIdentity
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseNpgsql(Configuration.GetConnectionString("PostgreSQLBaseConnection")));
+
             services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddUserStore<UserStore<ApplicationUser>>()
-                .AddRoleStore<RoleStore<IdentityRole>>()
-                .AddRoleManager<RoleManager<IdentityRole>>()
-                    .AddDefaultTokenProviders();
+                .AddEntityFrameworkStores<ApplicationDbContext> ()
+                .AddDefaultTokenProviders();
 
             services.Configure<IdentityOptions>(options =>
             {

@@ -2,21 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "AspNetCore.Identity.PostgreSQL.dll/2.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity": "2.0.0",
-          "Microsoft.NETCore.App": "2.0.0",
-          "NETStandard.Library": "2.0.0",
-          "Npgsql": "3.2.5"
-        },
-        "compile": {
-          "lib/netcoreapp2.0/AspNetCore.Identity.PostgreSQL.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/AspNetCore.Identity.PostgreSQL.dll": {}
-        }
-      },
       "IdentityModel/2.12.0": {
         "type": "package",
         "dependencies": {
@@ -2951,6 +2936,22 @@
           "lib/netstandard2.0/Npgsql.dll": {}
         }
       },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Npgsql": "3.2.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
       "NuGet.Frameworks/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -5102,20 +5103,6 @@
     }
   },
   "libraries": {
-    "AspNetCore.Identity.PostgreSQL.dll/2.0.1": {
-      "sha512": "DKdLnMjaPwuvCh4BV077Sm6Dv/9maCETR2Dd/ocI0zWfbltT6fJAnzuow3xQ+kXP+hv1IQiugMqUBRlKG9afDA==",
-      "type": "package",
-      "path": "aspnetcore.identity.postgresql.dll/2.0.1",
-      "files": [
-        "aspnetcore.identity.postgresql.dll.2.0.1.nupkg.sha512",
-        "aspnetcore.identity.postgresql.dll.nuspec",
-        "lib/netcoreapp1.0/AspNetCore.Identity.PostgreSQL.dll",
-        "lib/netcoreapp1.1/AspNetCore.Identity.PostgreSQL.dll",
-        "lib/netcoreapp2.0/AspNetCore.Identity.PostgreSQL.dll",
-        "lib/netstandard1.5/AspNetCore.Identity.PostgreSQL.dll",
-        "lib/netstandard2.0/AspNetCore.Identity.PostgreSQL.dll"
-      ]
-    },
     "IdentityModel/2.12.0": {
       "sha512": "mkBihxR9LrQlMLTvhW+bszcc5Be8vLx9O5NFiOd+eFwUdQvy0bxxP+lDk2D4OZV8SG8qzLilWQq8Waly3ydiTQ==",
       "type": "package",
@@ -8125,6 +8112,16 @@
         "lib/netstandard2.0/Npgsql.xml",
         "npgsql.3.2.5.nupkg.sha512",
         "npgsql.nuspec"
+      ]
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/2.0.0": {
+      "sha512": "saKCNK8A5OW3sUhL/tvYqNyKUK7AbIQlZUVmjn4Fw9wstyopECeF/9Er1fexRLpWev0/H9fUzFclTrXm+omsag==",
+      "type": "package",
+      "path": "npgsql.entityframeworkcore.postgresql/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "npgsql.entityframeworkcore.postgresql.2.0.0.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.nuspec"
       ]
     },
     "NuGet.Frameworks/4.0.0": {
@@ -13220,12 +13217,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "AspNetCore.Identity.PostgreSQL.dll >= 2.0.1",
       "IdentityServer4.AspNetIdentity >= 2.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -13272,6 +13269,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "suppressParent": "All",
             "target": "Package",
@@ -13281,10 +13282,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "2.0.0"
-          },
-          "AspNetCore.Identity.PostgreSQL.dll": {
-            "target": "Package",
-            "version": "2.0.1"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
