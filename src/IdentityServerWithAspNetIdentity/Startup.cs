@@ -89,6 +89,9 @@ namespace IdentityServerWithAspNetIdentity
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            app.UseCors(builder =>
+                builder.WithOrigins("http://localhost:5003"));
+
             app.UseStaticFiles();
 
             // app.UseAuthentication(); // not needed, since UseIdentityServer adds the authentication middleware

@@ -101,7 +101,27 @@ namespace IdentityServerWithAspNetIdentity
                         "api.full_access",
                     },
                     AllowOfflineAccess = true
-                }
+                },
+                
+                // implicit client
+                new Client
+                {
+                    ClientId = "js.tokenmanager",
+                    AllowedGrantTypes = GrantTypes.Implicit,
+
+                    RequireConsent = false,
+
+                    RedirectUris = { "http://localhost:5003/oidc-client-sample.html" },
+                    PostLogoutRedirectUris = { "http://localhost:5003/oidc-client-sample.html" },
+
+                    AllowedScopes =
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        "api.full_access",
+                    },
+                },
             };
         }
 

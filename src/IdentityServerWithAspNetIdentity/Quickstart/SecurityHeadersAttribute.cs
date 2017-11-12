@@ -23,7 +23,7 @@ namespace IdentityServer4.Quickstart.UI
                     context.HttpContext.Response.Headers.Add("X-Frame-Options", "SAMEORIGIN");
                 }
 
-                var csp = "default-src 'self';";
+                var csp = "default-src 'self'; connect-src http://localhost:5003";
                 // an example if you need client images to be displayed from twitter
                 //var csp = "default-src 'self'; img-src 'self' https://pbs.twimg.com";
                 
