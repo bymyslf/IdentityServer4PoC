@@ -26,7 +26,6 @@ D:\GitProjects\IdentityServer4PoC\src\IdentityServerWithAspNetIdentity\bin\Debug
 D:\GitProjects\IdentityServer4PoC\src\IdentityServerWithAspNetIdentity\bin\Debug\netcoreapp2.0\IdentityServerWithAspNetIdentity.runtimeconfig.dev.json
 D:\GitProjects\IdentityServer4PoC\src\IdentityServerWithAspNetIdentity\bin\Debug\netcoreapp2.0\IdentityServerWithAspNetIdentity.dll
 D:\GitProjects\IdentityServer4PoC\src\IdentityServerWithAspNetIdentity\bin\Debug\netcoreapp2.0\IdentityServerWithAspNetIdentity.pdb
-D:\GitProjects\IdentityServer4PoC\src\IdentityServerWithAspNetIdentity\obj\Debug\netcoreapp2.0\IdentityServerWithAspNetIdentity.csprojResolveAssemblyReference.cache
 D:\GitProjects\IdentityServer4PoC\src\IdentityServerWithAspNetIdentity\obj\Debug\netcoreapp2.0\IdentityServerWithAspNetIdentity.csproj.CoreCompileInputs.cache
 D:\GitProjects\IdentityServer4PoC\src\IdentityServerWithAspNetIdentity\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 D:\GitProjects\IdentityServer4PoC\src\IdentityServerWithAspNetIdentity\obj\Debug\netcoreapp2.0\IdentityServerWithAspNetIdentity.AssemblyInfoInputs.cache
