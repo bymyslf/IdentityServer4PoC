@@ -43,7 +43,11 @@ namespace IdentityServerWithAspNetIdentity
                             DisplayName = "Read only access to API"
                         }
                     }
-                }
+                },
+                new ApiResource("api2", "My API 2")
+                {
+                    UserClaims = { "API2" }
+                },
             };
         }
 
@@ -125,6 +129,23 @@ namespace IdentityServerWithAspNetIdentity
                         "api.full_access",
                     },
                 },
+
+                // delegation client (Extension Grant)
+                new Client
+                {
+                    ClientId = "api1.client",
+                    ClientSecrets = new List<Secret>
+                    {
+                        new Secret("secret".Sha256())
+                    },
+
+                    AllowedGrantTypes = { "delegation" },
+
+                    AllowedScopes = new List<string>
+                    {
+                        "api2"
+                    }
+                }
             };
         }
 
@@ -154,7 +175,8 @@ namespace IdentityServerWithAspNetIdentity
                     Claims = new List<Claim>
                     {
                         new Claim("name", "Bob"),
-                        new Claim("website", "https://bob.com")
+                        new Claim("website", "https://bob.com"),
+                        new Claim("API2", "BobApi2")
                     }
                 }
             };

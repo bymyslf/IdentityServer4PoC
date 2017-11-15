@@ -12,6 +12,8 @@ using IdentityServerWithAspNetIdentity.Models;
 using IdentityServerWithAspNetIdentity.Services;
 using IdentityServerWithAspNetIdentity.Data;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+using IdentityServer4.Validation;
+
 namespace IdentityServerWithAspNetIdentity
 {
     public class Startup
@@ -59,6 +61,7 @@ namespace IdentityServerWithAspNetIdentity
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
+            services.AddTransient<IExtensionGrantValidator, DelegationGrantValidator>();
             //services.AddTransient<IUserStore<ApplicationUser>, InMemoryUserStore>();
 
             services.AddMvc();
