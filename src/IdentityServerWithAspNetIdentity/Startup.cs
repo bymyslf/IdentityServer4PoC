@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using IdentityServerWithAspNetIdentity.Models;
 using IdentityServerWithAspNetIdentity.Services;
 using IdentityServerWithAspNetIdentity.Data;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
@@ -65,6 +64,7 @@ namespace IdentityServerWithAspNetIdentity
             //services.AddTransient<IUserStore<ApplicationUser>, InMemoryUserStore>();
 
             services.AddMvc();
+            services.AddFeaturesFolder();
 
             // configure identity server with in-memory stores, keys, clients and scopes
             services.AddIdentityServer()
@@ -104,7 +104,8 @@ namespace IdentityServerWithAspNetIdentity
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller}/{action}/{id?}",
+                     defaults: new { controller = "Home", action = "Index" });
             });
         }
     }

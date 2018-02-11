@@ -1,0 +1,41 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2 class="text-center"><small class="text-muted">Create an account</small></h2>
+<hr />
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <div class="input-group">
+            <input asp-for="Password" class="form-control" />
+            <span class="input-group-btn">
+                <button class="btn btn-outline-dark show-password-link" id="register-page-show-password-btn" type="button">show</button>
+            </span>
+        </div>
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ConfirmPassword"></label>
+        <div class="input-group">
+            <input asp-for="ConfirmPassword" class="form-control" />
+            <span class="input-group-btn">
+                <button class="btn btn-outline-dark show-password-link" id="register-page-show-confirm-password-btn" type="button">show</button>
+            </span>
+        </div>
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-dark btn-block">Register</button>
+</form>
+
+@section Scripts {
+    <script src="/identity/js/register-page.js"></script>
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

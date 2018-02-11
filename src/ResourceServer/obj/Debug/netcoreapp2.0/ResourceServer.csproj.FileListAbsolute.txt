@@ -30,4 +30,3 @@ D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\Res
 D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.AssemblyInfo.cs
 D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.dll
 D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.pdb
-D:\GitProjects\IdentityServer4PoC\src\ResourceServer\obj\Debug\netcoreapp2.0\ResourceServer.csprojResolveAssemblyReference.cache
