@@ -10,8 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using IdentityServerWithAspNetIdentity.Services;
 using IdentityServerWithAspNetIdentity.Data;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
 using IdentityServer4.Validation;
+using IdentityServer4;
+using Microsoft.IdentityModel.Tokens;
 
 namespace IdentityServerWithAspNetIdentity
 {
@@ -75,7 +76,21 @@ namespace IdentityServerWithAspNetIdentity
                 .AddInMemoryClients(Config.GetClients())
                 .AddAspNetIdentity<ApplicationUser>();
 
-            services.AddAuthentication();
+            services.AddAuthentication()
+                .AddOpenIdConnect("oidc", "OpenID Connect", options =>
+                {
+                    options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+                    options.SignOutScheme = IdentityServerConstants.SignoutScheme;
+
+                    options.Authority = "https://demo.identityserver.io/";
+                    options.ClientId = "implicit";
+
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        NameClaimType = "name",
+                        RoleClaimType = "role"
+                    };
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
