@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerWithAspNetIde
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnotherResourceServer", "src\AnotherResourceServer\AnotherResourceServer.csproj", "{E577C286-3AB1-4AB7-8030-B30E2ED7A1B5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClientExternal", "src\MvcClientExternal\MvcClientExternal.csproj", "{C053F710-A699-4CBB-B4B5-F89BCBFF5FCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E577C286-3AB1-4AB7-8030-B30E2ED7A1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E577C286-3AB1-4AB7-8030-B30E2ED7A1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E577C286-3AB1-4AB7-8030-B30E2ED7A1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C053F710-A699-4CBB-B4B5-F89BCBFF5FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C053F710-A699-4CBB-B4B5-F89BCBFF5FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C053F710-A699-4CBB-B4B5-F89BCBFF5FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C053F710-A699-4CBB-B4B5-F89BCBFF5FCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{4CFB4883-9929-4814-BE22-2E19476CE4A3} = {BABF1C97-CB5C-4AC5-81C6-6A81B0D45E27}
 		{1ECB5581-FFA5-4C11-A491-C85ABD962033} = {2408EC7B-2E06-46A5-B6AC-D4E985E30CBB}
 		{E577C286-3AB1-4AB7-8030-B30E2ED7A1B5} = {2408EC7B-2E06-46A5-B6AC-D4E985E30CBB}
+		{C053F710-A699-4CBB-B4B5-F89BCBFF5FCE} = {BABF1C97-CB5C-4AC5-81C6-6A81B0D45E27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6F57383-55DA-4B69-A394-2AD06F5C2EAA}

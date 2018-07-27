@@ -14,7 +14,7 @@ D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\bin\Debug\netcoreapp
 D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\bin\Debug\netcoreapp2.0\AnotherResourceServer.runtimeconfig.dev.json
 D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\bin\Debug\netcoreapp2.0\AnotherResourceServer.dll
 D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\bin\Debug\netcoreapp2.0\AnotherResourceServer.pdb
-D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\obj\Debug\netcoreapp2.0\AnotherResourceServer.csprojResolveAssemblyReference.cache
+D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\obj\Debug\netcoreapp2.0\AnotherResourceServer.csprojAssemblyReference.cache
 D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\obj\Debug\netcoreapp2.0\AnotherResourceServer.csproj.CoreCompileInputs.cache
 D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\obj\Debug\netcoreapp2.0\AnotherResourceServer.AssemblyInfoInputs.cache
 D:\GitProjects\IdentityServer4PoC\src\AnotherResourceServer\obj\Debug\netcoreapp2.0\AnotherResourceServer.AssemblyInfo.cs

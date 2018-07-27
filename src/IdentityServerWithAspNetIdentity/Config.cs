@@ -67,6 +67,8 @@ namespace IdentityServerWithAspNetIdentity
                         new Secret("secret".Sha256())
                     },
                     AllowedScopes = { "api.full_access" },
+                    AccessTokenLifetime = 30,
+                    IdentityTokenLifetime = 30
                 },
 
                 // resource owner password grant client
@@ -98,6 +100,34 @@ namespace IdentityServerWithAspNetIdentity
 
                     RedirectUris = { "http://localhost:5002/signin-oidc" },
                     PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
+
+                    AllowedScopes =
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "api.full_access",
+                    },
+                    AllowOfflineAccess = true
+                },
+
+                // OpenID Connect hybrid flow with full external authentication
+                new Client
+                {
+                    ClientId = "mvc_external",
+                    ClientName = "MVC Client fully external",
+                    AllowedGrantTypes = GrantTypes.Hybrid,
+
+                    RequireConsent = false,
+
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
+
+                    RedirectUris = { "http://localhost:5005/signin-oidc" },
+                    PostLogoutRedirectUris = { "http://localhost:5005/signout-callback-oidc" },
+
+                    EnableLocalLogin = false,
 
                     AllowedScopes =
                     {

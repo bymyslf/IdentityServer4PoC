@@ -33,24 +33,35 @@ namespace Client
                 return;
             }
 
-            Console.WriteLine(tokenResponse.Json);
+            //Console.WriteLine(tokenResponse.Json);
+            Console.WriteLine($"START: {DateTime.Now}");
             Console.WriteLine("\n\n");
 
             // call api
             var client = new HttpClient();
             client.SetBearerToken(tokenResponse.AccessToken);
 
-            var response = await client.GetAsync("http://localhost:5001/identity");
-            if (!response.IsSuccessStatusCode)
+            for (; ;)
             {
-                Console.WriteLine(response.StatusCode);
-            }
-            else
-            {
-                var content = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(JArray.Parse(content));
-            }
+                var response = await client.GetAsync("http://localhost:5001/identity");
+                if (!response.IsSuccessStatusCode)
+                {
+                    Console.WriteLine(response.StatusCode);
+                    Console.WriteLine($"ERROR: {DateTime.Now}");
 
+                    if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
+                        break;
+                }
+                else
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    //Console.WriteLine(JArray.Parse(content));
+                    Console.WriteLine($"ITERATION: {DateTime.Now}");
+                }
+
+                await Task.Delay(60000);
+            }
+            
             Console.ReadKey();
         }
     }

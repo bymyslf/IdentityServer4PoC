@@ -1,0 +1,10 @@
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\bin\Debug\netcoreapp2.0\MvcClientExternal.deps.json
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\bin\Debug\netcoreapp2.0\MvcClientExternal.runtimeconfig.json
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\bin\Debug\netcoreapp2.0\MvcClientExternal.runtimeconfig.dev.json
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\bin\Debug\netcoreapp2.0\MvcClientExternal.dll
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\bin\Debug\netcoreapp2.0\MvcClientExternal.pdb
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\obj\Debug\netcoreapp2.0\MvcClientExternal.csproj.CoreCompileInputs.cache
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\obj\Debug\netcoreapp2.0\MvcClientExternal.AssemblyInfoInputs.cache
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\obj\Debug\netcoreapp2.0\MvcClientExternal.AssemblyInfo.cs
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\obj\Debug\netcoreapp2.0\MvcClientExternal.dll
+D:\GitProjects\IdentityServer4PoC\src\MvcClientExternal\obj\Debug\netcoreapp2.0\MvcClientExternal.pdb

@@ -77,13 +77,29 @@ namespace IdentityServerWithAspNetIdentity
                 .AddAspNetIdentity<ApplicationUser>();
 
             services.AddAuthentication()
-                .AddOpenIdConnect("oidc", "OpenID Connect", options =>
+                .AddOpenIdConnect("oidc-implicit", "OpenID Connect", options =>
                 {
                     options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
                     options.SignOutScheme = IdentityServerConstants.SignoutScheme;
 
                     options.Authority = "https://demo.identityserver.io/";
                     options.ClientId = "implicit";
+
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        NameClaimType = "name",
+                        RoleClaimType = "role"
+                    };
+                })
+                .AddOpenIdConnect("oidc-hybrid", "OpenID Connect", options =>
+                {
+                    options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+                    options.SignOutScheme = IdentityServerConstants.SignoutScheme;
+
+                    options.Authority = "https://demo.identityserver.io/";
+                    options.ClientId = "server.hybrid";
+                    options.ClientSecret = "secret";
+                    options.CallbackPath = "/signin-oidc-external";
 
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
